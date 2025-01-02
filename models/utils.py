@@ -1,8 +1,3 @@
-"""
-This file contains helper functions for building the model and for loading model parameters.
-These helper functions are built to mirror those in the official TensorFlow implementation.
-"""
-
 import re
 import math
 import collections
