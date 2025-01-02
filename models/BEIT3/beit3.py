@@ -80,7 +80,7 @@ class EvfSamModel(nn.Module):
     def __init__(self, config):
         super(EvfSamModel, self).__init__()
         self.config = config
-        self.encoder_pretrained = '/home/interimuser/qsc/SAM-AD-MVTEC/BEIT3_weight/beit3_base_patch16_224.pth'  # 如果有预训练权重，可以在此指定路径
+        self.encoder_pretrained = 'BEIT3_weight/beit3_base_patch16_224.pth'  # 如果有预训练权重，可以在此指定路径
         self.initialize_evf_modules(config)
 
     def initialize_evf_modules(self, config):
