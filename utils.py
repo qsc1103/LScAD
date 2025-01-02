@@ -1,8 +1,3 @@
-""" helper function
-
-author junde
-"""
-
 import collections
 import logging
 import math
