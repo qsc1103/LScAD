@@ -1,5 +1,3 @@
-"""squeezenet in pytorch
-"""
 import torch
 import torch.nn as nn
 
